@@ -34,9 +34,9 @@ header {
 }
 
 .nav-link:hover {
-    color: #f7f3ef;
-    transform: translate(-10px, -10px);
-    box-shadow: 10px 10px 0 rgba(36, 31, 33, 255);
+    background: linear-gradient(180deg, rgba(36, 31, 33, 255), #dabc95);
+    transform: translateY(-3px);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3), -10px -10px 20px rgba(255, 255, 255, 0.1);
 }
 
 .main-content {

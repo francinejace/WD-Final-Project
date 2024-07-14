@@ -1,0 +1,135 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #f4f4f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+.header {
+    text-align: right;
+    padding: 10px;
+    justify-content: flex-end;
+    margin-top: 1.5rem;
+}
+
+.buttons {
+    display: inline-block;
+    margin-top: 0.5rem;
+    position: relative;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+    padding: 0.7rem;
+    background: #cfc3bb;
+    color: rgba(36, 31, 33, 255);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.buttons:hover {
+    transform: translate(-10px, -10px);
+    box-shadow: 10px 10px 0 rgba(36, 31, 33, 255);
+}
+
+.container {
+  display: flex;
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.left {
+  flex: 1;
+  padding: 20px;
+}
+
+.right {
+  flex: 2;
+  padding: 20px;
+}
+
+.profile {
+  text-align: center;
+}
+
+.profile .frame {
+  width: 150px;
+  height: 150px;
+  margin: 0 auto 20px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 5px solid #ddd;
+}
+
+.profile img {
+  width: 100%;
+  height: auto;
+}
+
+.profile h2 {
+  font-size: 24px;
+}
+
+.profile h2 span {
+  display: block;
+  font-size: 18px;
+  margin: 0.5rem;
+}
+
+.personal-details .title,
+.contact .title {
+  font-size: 20px;
+  margin: 0.5rem;
+}
+
+.personal-details ul,
+.contact ul,
+.info-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.personal-details li,
+.contact li,
+.info-section li {
+  margin-bottom: 10px;
+  margin-left: 2rem;
+}
+
+.personal-details .icon,
+.contact .icon {
+  margin-right: 10px;
+  color: #333;
+}
+
+.personal-details .text,
+.contact .text,
+.contact a {
+  font-size: 16px;
+  color: #333;
+  text-decoration: none;
+}
+
+.info-section {
+  margin-bottom: 20px;
+}
+
+.info-section h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.info-section p {
+  font-size: 16px;
+  line-height: 1.6;
+}
