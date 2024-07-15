@@ -136,3 +136,4 @@ WD-Final-Project
 | Title | Purpose | Link |
 |-|-|-|
 | Wheels, Inc. | Business content | https://www.wheelsinc.com.ph/ |
+| FontAwesome | Icons | https://fontawesome.com/ |
