@@ -1,0 +1,190 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans";
+}
+
+@font-face {
+  font-family: "Noto Sans";
+  src: url(../../../../assets/css/noto-sans-vithkuqi/NotoSansVithkuqi[wght].ttf);
+}
+
+/* hero */
+.hero {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.header {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  z-index: 1;
+  transition: background-color 0.3s ease;
+}
+
+.header .logo {
+  max-height: 4rem;
+  transition: filter 0.3s ease;
+}
+
+.header-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.buttons {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Noto Sans";
+  padding: 15px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.buttons::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease;
+}
+
+.buttons:hover::before {
+  transform: scaleX(1);
+}
+
+.buttons:hover {
+  background-color: #05141f;
+  color: white;
+}
+
+.hero-texts {
+  position: absolute;
+  top: 150px;
+  max-width: 700px;
+  color: black;
+  padding: 20px;
+  border-radius: 10px;
+  text-shadow: 2px 2px 10px black;
+  z-index: 2;
+}
+
+.hero-texts h1 {
+  transition: all 0.5s ease;
+}
+
+.hero-texts h1:hover {
+  color: #05141f;
+  transform: translateX(20px);
+  text-shadow: 1px 1px 5px rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+.hero-texts p {
+  font-size: 16px;
+  left: 30px;
+  transition: all 0.5s ease;
+}
+
+.hero-texts p:hover {
+  color: #05141f;
+  transform: translateX(20px);
+  text-shadow: 2px 2px 0px rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+/* sections */
+.section-light {
+  background-color: #ffffff;
+  padding: 50px 20px;
+  min-height: 30vh;
+  text-align: center;
+}
+
+.section-dark {
+  background-color: #05141f;
+  color: white;
+  padding: 50px 20px;
+  min-height: 80vh;
+}
+
+.section-light-2 {
+  background-color: #ffffff;
+  padding: 50px 20px;
+  min-height: 80vh;
+}
+
+.texts {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.texts-center {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.texts h1,
+.texts p,
+.texts-center h1,
+.texts-center p {
+  margin-bottom: 20px;
+}
+
+.texts-1 h1,
+.texts-1 p {
+  max-width: 800px;
+  right: 10px;
+}
+
+.image-row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  align-items: center;
+}
+
+.img {
+  flex: 1 1 calc(100% / 6);
+  padding: 0 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img img {
+  max-width: 100%;
+  max-height: 80px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  display: block;
+}
