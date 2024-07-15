@@ -4,23 +4,23 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/zyx-0314/">
+  <a href="https://github.com/your-github-username/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
+    <img src="./assets/img/mochi-mochi.png" alt="mochi-mochi" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Title</h3>
+  <h3 align="center">Final Project</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+  This website showcases my programming and designing skills as a freshman student under the specialization Web & Mobile Application in the program Information Technology. It features different website layouts for various features of this website. This also highlights some of my projects all throughout the school year under the course Web Design with Client-Side Scripting (IT0043).
 </div>
 
 <br />
 
-<!-- TODO: Change the zyx-0314 into your github username  -->
+<!-- TODO: Change the your-github-username into your github username  -->
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Template-Project)
+![](https://visit-counter.vercel.app/counter.png?page=francinejace/WD-Final-Project)
 
 ---
 
@@ -59,18 +59,12 @@
 <!-- The following are just sample -->
 Description of the project in details.
 
-Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
+-This project is for the final project requirement for the course <strong> IT0043L - Web Design with Client-Side Scripting </strong>. It showcases my programming and designing skills as a freshman student under the specialization Web & Mobile Application in the program Information Technology. It features different website layouts for various features of this website. This also highlights some of my projects all throughout the school year under the said course.
 
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
 - MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
 
 ### Technology
 <!-- TODO: List of Technology Used -->
@@ -90,23 +84,48 @@ Guiding Question:
 7. File Structure to follow below.
 
 ```
-WD-ProjectName
+WD-Final-Project
 └─ assets
 |   └─ css
-|   |   └─ style.css
+|   |   └─ Noto-Sans
+|   |   |  └─ NotoSans.ttf
 |   └─ img
-|   |   └─ fileWith.jpeg/.jpg/.webp/.png
-|   └─ js
-|       └─ script.js
+|   |   └─ Changan.png
+|   |   └─ Final-Project.png
+|   |   └─ Francine_Bachiller.jpg
+|   |   └─ Francine.jpg
+|   |   └─ GAC.png
+|   |   └─ Hands-on 2.png
+|   |   └─ Hyundai.png
+|   |   └─ KIA.png
+|   |   └─ mochi-mochi.png
+|   |   └─ Peugeot.png
+|   |   └─ Resume.png
+|   |   └─ Suzuki.png
+|   |   └─ SW3.png
+|   |   └─ SW4.png
+|   |   └─ Wheels-2.jpg
+|   |   └─ Wheels.png
 └─ pages
-|  └─ pageName
+|  └─ page1
 |     └─ assets
 |     |  └─ css
 |     |  |  └─ style.css
-|     |  └─ img
-|     |  |  └─ fileWith.jpeg/.jpg/.webp/.png
-|     |  └─ js
-|     |     └─ script.js
+|     └─ index.html
+|  └─ page2
+|     └─ assets
+|     |  └─ css
+|     |  |  └─ style.css
+|     └─ index.html
+|  └─ page3
+|     └─ assets
+|     |  └─ css
+|     |  |  └─ style.css
+|     └─ index.html
+|  └─ page4
+|     └─ assets
+|     |  └─ css
+|     |  |  └─ style.css
 |     └─ index.html
 └─ index.html
 └─ readme.md
@@ -117,4 +136,4 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| Wheels, Inc. | Business content | https://www.wheelsinc.com.ph/ |
