@@ -59,7 +59,7 @@
 <!-- The following are just sample -->
 Description of the project in details.
 
--This project is for the final project requirement for the course <strong> IT0043L - Web Design with Client-Side Scripting </strong>. It showcases my programming and designing skills as a freshman student under the specialization Web & Mobile Application in the program Information Technology. It features different website layouts for various features of this website. This also highlights some of my projects all throughout the school year under the said course.
+- This project is for the final project requirement for the course <strong> IT0043L - Web Design with Client-Side Scripting </strong>. It showcases my programming and designing skills as a freshman student under the specialization Web & Mobile Application in the program Information Technology. It features different website layouts for various features of this website. This also highlights some of my projects all throughout the school year under the said course.
 
 ### Key Components
 <!-- TODO: List of Key Components -->
