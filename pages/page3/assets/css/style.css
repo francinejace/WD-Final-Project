@@ -81,7 +81,7 @@
 }
 
 .buttons:hover {
-  background-color: #05141f;
+  background-color: #000000;
   color: white;
 }
 
@@ -121,24 +121,11 @@
 }
 
 /* sections */
-.section-light {
+.dealership {
   background-color: #ffffff;
   padding: 50px 20px;
   min-height: 30vh;
   text-align: center;
-}
-
-.section-dark {
-  background-color: #05141f;
-  color: white;
-  padding: 50px 20px;
-  min-height: 80vh;
-}
-
-.section-light-2 {
-  background-color: #ffffff;
-  padding: 50px 20px;
-  min-height: 80vh;
 }
 
 .texts {
